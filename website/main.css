@@ -1,0 +1,201 @@
+
+
+/*navigation for the index page*/
+
+.MainMenu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(210, 226, 241);
+}
+
+.MainMenu-item {
+	float: left;
+}
+
+.MainMenu-item-link {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.MainMenu-item-link:hover {
+	background-color: #111;	
+}
+.MainMenu-item-link-active {
+	background-color: #4CAF50;
+}
+/*formating of webpages*/
+
+.flex-container {
+	display: flex; 
+    flex-direction:column;
+    flex-wrap:wrap;
+  text-align: center;
+
+}
+
+
+.article {
+    text-align: left;
+}
+.headingStyle{
+	position: relative; 
+	width: 100%;
+	height: 90vh;
+	object-fit: cover;
+	overflow: hidden;
+	
+}
+.center-text{
+	position: absolute; 
+	top: 200px; 
+	left: 0; 
+	width: 100%; 
+	color: white;
+	text-align: center;
+}
+.center-text-p{
+	position: absolute; 
+	top: 200px; 
+	left: 0; 
+	width: 100%; 
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+
+}
+.center-text-p a{
+	text-decoration: none;
+	color: green;	
+}
+
+footer {}
+
+/*for navigation color and decoraton*/
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+/* reponsive media query to scale the page for text*/
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+div.a {
+    text-align: center;
+}
+
+div.b {
+    text-align: left;
+}
+/*aligning the text to center for about page*/
+
+
+/*table for news page*/
+strong {
+	font-weight: bold; 
+}
+
+em {
+	font-style: italic; 
+}
+
+table {
+	background: #f5f5f5;
+	border-collapse: separate;
+	box-shadow: inset 0 1px 0 #fff;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 30px auto;
+	text-align: left;
+	width: 800px;
+}	
+
+th {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+	border-left: 1px solid #555;
+	border-right: 1px solid #777;
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #333;
+	box-shadow: inset 0 1px 0 #999;
+	color: #fff;
+  font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+th:after {
+	background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+	content: '';
+	display: block;
+	height: 25%;
+	left: 0;
+	margin: 1px 0 0 0;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
+
+td:first-child {
+	box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+	background: url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:nth-child(odd) td {
+	background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}	
+
+
+
+
